@@ -186,7 +186,9 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 /* dark panel behind the hero content; doodles stay visible around it */
 .hero-grid {
-  background: radial-gradient(900px 420px at 10% -20%, #3a6aa0, #24497a 55%, #1f4166);
+  background:
+    radial-gradient(520px 320px at 88% 110%, rgba(232,185,58,.22), transparent 70%),
+    linear-gradient(135deg, #4f86c6 0%, #2f5f99 42%, #1d3d66 100%);
   border-radius: 0 0 28px 28px; padding: 48px 44px; box-shadow: var(--shadow-lg);
   border: 1px solid rgba(255,255,255,.08);
 }
