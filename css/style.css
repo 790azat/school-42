@@ -138,19 +138,27 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 /* ---------- Hero ---------- */
 .hero {
-  position: relative; overflow: hidden;
-  background:
-    radial-gradient(520px 360px at 8% 12%, rgba(255,255,255,.75), transparent 70%),
-    radial-gradient(600px 420px at 92% 18%, rgba(255,214,102,.55), transparent 70%),
-    radial-gradient(700px 480px at 70% 110%, rgba(255,154,139,.45), transparent 70%),
-    linear-gradient(135deg, #bfe6ff 0%, #d9f2ff 35%, #fff4c9 70%, #ffe1c7 100%);
+  position: relative; overflow: hidden; isolation: isolate;
+  background-color: #fbfaf6;
+  background-image:
+    radial-gradient(420px 300px at 0% 0%, rgba(160,196,255,.55), transparent 70%),
+    radial-gradient(380px 280px at 100% 30%, rgba(255,209,102,.5), transparent 70%),
+    radial-gradient(460px 300px at 85% 105%, rgba(255,175,204,.5), transparent 70%),
+    radial-gradient(360px 260px at 0% 100%, rgba(160,231,199,.55), transparent 70%),
+    linear-gradient(rgba(43,52,69,.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43,52,69,.07) 1px, transparent 1px);
+  background-size: auto, auto, auto, auto, 24px 24px, 24px 24px;
   color: var(--navy-900);
   padding: 64px 0 96px;
 }
-.hero::after {
-  content: ""; position: absolute; inset: 0; opacity: .35; pointer-events: none;
-  background-image: radial-gradient(circle at 2px 2px, #ffffff 1.5px, transparent 1.5px);
-  background-size: 26px 26px;
+/* hand-drawn school doodles */
+.hero::after, .page-hero::after {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: url("../assets/img/doodles.svg") 0 0 / 640px 420px repeat;
+  opacity: .55;
+  /* keep the text area calm: doodles live around the edges, like a notebook border */
+  -webkit-mask-image: radial-gradient(ellipse 55% 60% at 38% 48%, transparent 45%, #000 85%);
+          mask-image: radial-gradient(ellipse 55% 60% at 38% 48%, transparent 45%, #000 85%);
 }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; }
 .eyebrow {
@@ -170,7 +178,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 .hero-stats { position: relative; display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 44px; }
 .stat-card {
-  background: rgba(255,255,255,.72); border: 1px solid rgba(255,255,255,.9);
+  background: rgba(255,255,255,.92); border: 1px solid #fff;
   border-radius: var(--radius-md); padding: 18px 16px; text-align: center; box-shadow: var(--shadow-sm);
 }
 .stat-card strong { display: block; font-size: 1.5rem; color: var(--gold-600); font-weight: 800; }
@@ -186,15 +194,20 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 .section-head p { margin: 8px 0 0; max-width: 60ch; }
 
 .page-hero {
-  background:
-    radial-gradient(500px 300px at 90% 0%, rgba(255,214,102,.5), transparent 70%),
-    linear-gradient(135deg, #bfe6ff 0%, #e3f5ff 45%, #fff4c9 100%);
-  color: var(--navy-900); padding: 46px 0; position: relative; overflow: hidden;
+  position: relative; overflow: hidden; isolation: isolate;
+  background-color: #fbfaf6;
+  background-image:
+    radial-gradient(380px 240px at 95% 0%, rgba(255,209,102,.5), transparent 70%),
+    radial-gradient(380px 240px at 0% 100%, rgba(160,196,255,.5), transparent 70%),
+    linear-gradient(rgba(43,52,69,.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43,52,69,.07) 1px, transparent 1px);
+  background-size: auto, auto, 24px 24px, 24px 24px;
+  color: var(--navy-900); padding: 46px 0;
 }
 .page-hero::after {
-  content: ""; position: absolute; inset: 0; opacity: .35;
-  background-image: radial-gradient(circle at 2px 2px, #ffffff 1.5px, transparent 1.5px);
-  background-size: 26px 26px;
+  opacity: .45;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0 45%, #000 80%);
+          mask-image: linear-gradient(90deg, transparent 0 45%, #000 80%);
 }
 .page-hero .container { position: relative; }
 .breadcrumb { font-size: .82rem; color: var(--ink-700); opacity: .9; margin-bottom: 10px; }
@@ -426,6 +439,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 }
 
 @media (max-width: 720px) {
+  .hero::after, .page-hero::after { background-size: 420px 276px; opacity: .35; }
   .grid-3, .grid-2 { grid-template-columns: 1fr; }
   .staff-grid { grid-template-columns: repeat(3, 1fr); }
   .gallery { grid-template-columns: repeat(3, 1fr); }
