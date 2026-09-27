@@ -22,7 +22,7 @@ jobs:
           protocol: ftps
           # Change this to the site's document root if the FTP account does
           # not already land there after login (e.g. "./www/" or "./public_html/").
-          server-dir: ./
+          server-dir: ./public_html/
           # Files that must not be touched on the server even though they
           # are not part of this repo's static export.
           exclude: |

@@ -6,4 +6,4 @@
 
 Деплой: каждый push в `main` выкладывает сайт на хостинг по FTPS (`.github/workflows/deploy.yml`).
 Нужны secrets репозитория: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`
-(Settings → Secrets and variables → Actions). FTP-аккаунт для деплоя должен смотреть прямо в `public_html` (в cPanel: Directory = `public_html`), тогда `server-dir: ./`.
+(Settings → Secrets and variables → Actions). Деплой идёт под главным FTP-аккаунтом (корень `/home/school42`), поэтому `server-dir: ./public_html/`.
