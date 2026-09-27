@@ -184,6 +184,23 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 .stat-card strong { display: block; font-size: 1.5rem; color: var(--gold-600); font-weight: 800; }
 .stat-card span { font-size: .78rem; color: var(--ink-700); }
 
+/* dark panel behind the hero content; doodles stay visible around it */
+.hero-grid {
+  background: radial-gradient(900px 420px at 10% -20%, var(--navy-700), var(--navy-950) 65%);
+  border-radius: 28px; padding: 48px 44px; box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255,255,255,.08);
+}
+.hero-grid .eyebrow { background: rgba(232,185,58,.14); color: var(--gold-300); border-color: rgba(232,185,58,.35); }
+.hero-grid h1 { color: #fff; }
+.hero-grid p.lead { color: var(--navy-100); }
+.hero-grid .btn-outline { background: transparent; color: #fff; border-color: rgba(255,255,255,.35); }
+.hero-grid .btn-outline:hover { border-color: #fff; }
+.hero-grid .stat-card { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); box-shadow: none; }
+.hero-grid .stat-card strong { color: var(--gold-300); }
+.hero-grid .stat-card span { color: var(--navy-100); }
+.hero-grid .hero-media { border-color: rgba(255,255,255,.9); }
+.hero::after { -webkit-mask-image: none; mask-image: none; }
+
 /* ---------- Section shells ---------- */
 .section { padding: 64px 0; }
 .section-tight { padding: 40px 0; }
@@ -456,5 +473,6 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .quicklinks { grid-template-columns: 1fr; }
   .doc-tile { width: 104px; }
   .hero { padding: 40px 0 72px; }
+  .hero-grid { padding: 26px 18px; border-radius: 20px; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
 }
