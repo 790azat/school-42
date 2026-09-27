@@ -91,12 +91,12 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 /* ---------- Header / Nav ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 100;
-  background: #fff;
+  background: #ffffff;
   border-bottom: 1px solid var(--paper-line);
 }
 .nav-wrap {
   display: flex; align-items: center; justify-content: space-between;
-  height: var(--header-h); gap: 16px;
+  min-height: var(--header-h); gap: 16px; padding-top: 14px; padding-bottom: 14px;
 }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
 .brand img { width: 46px; height: 46px; }
@@ -405,9 +405,9 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   :root { --header-h: 68px; }
   .nav-toggle { display: flex; }
   .main-nav {
-    position: fixed; top: var(--nav-top, 68px); right: 0; bottom: 0; left: 0; z-index: 99;
-    background: #fff; flex-direction: column; flex-wrap: nowrap; align-items: stretch;
-    padding: 18px; gap: 4px; overflow-y: auto; overscroll-behavior: contain;
+    position: fixed; top: var(--nav-top, 68px); left: 0; z-index: 99; right: 0; bottom: 0; width: auto; height: auto;
+    background: #fff; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start;
+    padding: 18px; gap: 4px; overflow-y: auto; -webkit-overflow-scrolling: touch;
     transform: translateX(100%); visibility: hidden;
     transition: transform .28s ease, visibility 0s linear .28s;
     box-shadow: -10px 0 30px rgba(0,0,0,.1);

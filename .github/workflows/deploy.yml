@@ -3,30 +3,32 @@ name: Deploy to school-42.am
 on:
   push:
     branches: [main]
-  workflow_dispatch:
-
-concurrency:
-  group: deploy
-  cancel-in-progress: false
+  workflow_dispatch: {}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Upload site via FTPS
+      - name: Deploy over FTP/FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
           port: 21
-          local-dir: ./
+          protocol: ftps
+          # Change this to the site's document root if the FTP account does
+          # not already land there after login (e.g. "./www/" or "./public_html/").
           server-dir: ./
+          # Files that must not be touched on the server even though they
+          # are not part of this repo's static export.
           exclude: |
             **/.git*
             **/.git*/**
+            **/*.php
+            **/error_log
             .github/**
             README.md

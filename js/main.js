@@ -30,8 +30,8 @@
     });
   }
 
-  // Highlight current page in nav
-  var here = location.pathname.replace(/\/index\.html$/, "/").split("/").pop() || "index.html";
+  // Highlight current page in nav (clean, extension-less URLs, e.g. /about)
+  var here = location.pathname.replace(/\.html$/i, "").replace(/\/+$/, "").split("/").pop() || "index";
   document.querySelectorAll(".main-nav a[data-page]").forEach(function (a) {
     if (a.getAttribute("data-page") === here) a.classList.add("is-active");
   });
