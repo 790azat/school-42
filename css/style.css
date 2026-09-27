@@ -186,8 +186,8 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 /* dark panel behind the hero content; doodles stay visible around it */
 .hero-grid {
-  background: radial-gradient(900px 420px at 10% -20%, var(--navy-700), var(--navy-950) 65%);
-  border-radius: 28px; padding: 48px 44px; box-shadow: var(--shadow-lg);
+  background: radial-gradient(900px 420px at 10% -20%, #3a6aa0, #24497a 55%, #1f4166);
+  border-radius: 0 0 28px 28px; padding: 48px 44px; box-shadow: var(--shadow-lg);
   border: 1px solid rgba(255,255,255,.08);
 }
 .hero-grid .eyebrow { background: rgba(232,185,58,.14); color: var(--gold-300); border-color: rgba(232,185,58,.35); }
@@ -200,6 +200,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 .hero-grid .stat-card span { color: var(--navy-100); }
 .hero-grid .hero-media { border-color: rgba(255,255,255,.9); }
 .hero::after { -webkit-mask-image: none; mask-image: none; }
+.hero { padding-top: 0; }
 
 /* ---------- Section shells ---------- */
 .section { padding: 64px 0; }
@@ -472,7 +473,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .gallery { grid-template-columns: repeat(2, 1fr); }
   .quicklinks { grid-template-columns: 1fr; }
   .doc-tile { width: 104px; }
-  .hero { padding: 40px 0 72px; }
-  .hero-grid { padding: 26px 18px; border-radius: 20px; }
+  .hero { padding: 0 0 72px; }
+  .hero-grid { padding: 26px 18px; border-radius: 0 0 20px 20px; }
   .hero-stats { grid-template-columns: 1fr 1fr; }
 }
