@@ -6,4 +6,4 @@
 
 Деплой: каждый push в `main` выкладывает сайт на хостинг по FTPS (`.github/workflows/deploy.yml`).
 Нужны secrets репозитория: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`
-(Settings → Secrets and variables → Actions). Папку на сервере задаёт `server-dir`.
+(Settings → Secrets and variables → Actions). Сайт выкладывается в `public_html` (`server-dir`).
