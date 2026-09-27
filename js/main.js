@@ -26,14 +26,36 @@
       if (e.key === "Escape" && nav.classList.contains("open")) { setOpen(false); toggle.focus(); }
     });
     window.addEventListener("resize", function () {
-      if (window.innerWidth > 860 && nav.classList.contains("open")) setOpen(false);
+      if (window.innerWidth > 1000 && nav.classList.contains("open")) setOpen(false);
     });
   }
 
   // Highlight current page in nav (clean, extension-less URLs, e.g. /about)
   var here = location.pathname.replace(/\.html$/i, "").replace(/\/+$/, "").split("/").pop() || "index";
   document.querySelectorAll(".main-nav a[data-page]").forEach(function (a) {
-    if (a.getAttribute("data-page") === here) a.classList.add("is-active");
+    if (a.getAttribute("data-page") === here) {
+      a.classList.add("is-active");
+      var group = a.closest(".nav-drop");
+      if (group) group.classList.add("is-active");
+    }
+  });
+
+  // "Reports" dropdown: hover on desktop, tap/keyboard toggle everywhere
+  document.querySelectorAll(".nav-drop").forEach(function (drop) {
+    var btn = drop.querySelector(".nav-drop-btn");
+    if (!btn) return;
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var isOpen = !drop.classList.contains("open");
+      drop.classList.toggle("open", isOpen);
+      btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+    document.addEventListener("click", function (e) {
+      if (!drop.contains(e.target)) { drop.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+    });
+    drop.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { drop.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); btn.focus(); }
+    });
   });
 
   // Back-to-top button
@@ -51,7 +73,7 @@
   var header = document.querySelector(".site-header");
   if (header) {
     var onScroll = function () {
-      header.style.boxShadow = window.scrollY > 6 ? "0 6px 20px rgba(16,32,58,.08)" : "none";
+      header.style.boxShadow = window.scrollY > 6 ? "0 6px 20px rgba(29,53,87,.08)" : "none";
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
