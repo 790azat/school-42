@@ -4,14 +4,14 @@
   "kind": "published-slides",
   "key": "2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw",
   "ok": false,
-  "error": "RuntimeError: https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/pub?output=pdf: unexpected content-type 'text/html; charset=utf-8' (35713688 bytes); https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/export/pdf: HTTP Error 404: Not Found; https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/pub?output=pptx: unexpected content-type 'text/html; charset=utf-8' (35713669 bytes)"
+  "error": "RuntimeError: https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/pub?output=pdf: unexpected content-type 'text/html; charset=utf-8' (35713684 bytes); https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/export/pdf: HTTP Error 404: Not Found; https://docs.google.com/presentation/d/e/2PACX-1vQBPJK5S55jUKGFpcX0h3e3N8XprQMyNXS6qJp0a-P6THYLtFIp1LHJRA1vyfT1pw/pub?output=pptx: unexpected content-type 'text/html; charset=utf-8' (35713670 bytes)"
  },
  {
   "url": "https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/pubembed?start=true&loop=false&delayms=3000",
   "kind": "published-slides",
   "key": "2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g",
   "ok": false,
-  "error": "RuntimeError: https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/pub?output=pdf: unexpected content-type 'text/html; charset=utf-8' (34970995 bytes); https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/export/pdf: HTTP Error 404: Not Found; https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/pub?output=pptx: unexpected content-type 'text/html; charset=utf-8' (34971000 bytes)"
+  "error": "RuntimeError: https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/pub?output=pdf: unexpected content-type 'text/html; charset=utf-8' (34970996 bytes); https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/export/pdf: HTTP Error 404: Not Found; https://docs.google.com/presentation/d/e/2PACX-1vQoF3Y2XQ9l4R7Fk_OKJM5kJLbNXmL7YeCyAQ2J12QPHnhJzNPNooMlwMbLTV903g/pub?output=pptx: unexpected content-type 'text/html; charset=utf-8' (34970638 bytes)"
  },
  {
   "url": "https://docs.google.com/spreadsheets/d/1YkruZ80JIC9FnxwKE_pG1tkKdaYp0NFt/edit?usp=sharing&ouid=111034496901719141980&rtpof=true&sd=true",
@@ -173,8 +173,49 @@
   "url": "https://drive.google.com/drive/folders/19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2?usp=sharing",
   "kind": "folder",
   "key": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1FfXf7C9ZA1tA95JczqPtzWbrUFgXBEKg\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/1.jpg",
+    "bytes": 2302625
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/10.jpg",
+    "bytes": 2422085
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/2.jpg",
+    "bytes": 2161381
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/3.jpg",
+    "bytes": 2320061
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/4.jpg",
+    "bytes": 2271594
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/5.jpg",
+    "bytes": 2129145
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/6.jpg",
+    "bytes": 2268600
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/7.jpg",
+    "bytes": 2293118
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/8.jpg",
+    "bytes": 2418087
+   },
+   {
+    "path": "19uhNjdk4yBCuA8GK6N3Rxyu1i0EmmKg2/9.jpg",
+    "bytes": 2448244
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1BzN5VOCqyDVh70CFXcKyuXdIRYteQG1-?usp=sharing",
@@ -368,155 +409,841 @@
   "url": "https://drive.google.com/drive/folders/1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ?usp=sharing",
   "kind": "folder",
   "key": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1zIVuC65jsgCn6u_bcqdjrwCuZR_Cex3S\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/1.pdf",
+    "bytes": 139420
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/2.pdf",
+    "bytes": 112789
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/3.pdf",
+    "bytes": 122504
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/4.pdf",
+    "bytes": 122927
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/5.pdf",
+    "bytes": 130271
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/6.pdf",
+    "bytes": 196183
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/7.pdf",
+    "bytes": 100513
+   },
+   {
+    "path": "1JTdqViFlv7YBZVBUrhfqCjmMOmNjZObZ/8.pdf",
+    "bytes": 129500
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE?usp=sharing",
   "kind": "folder",
   "key": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1n6_ugmwDalSy6dQiZwP9Vt0w2TEEI6RL\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/1.JPG",
+    "bytes": 165452
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/10.JPG",
+    "bytes": 88421
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/11.JPG",
+    "bytes": 97676
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/12.JPG",
+    "bytes": 94906
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/13.JPG",
+    "bytes": 98672
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/14.JPG",
+    "bytes": 56698
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/15.JPG",
+    "bytes": 156417
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/16.JPG",
+    "bytes": 148015
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/17.JPG",
+    "bytes": 161364
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/18.JPG",
+    "bytes": 149851
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/2.JPG",
+    "bytes": 166688
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/3.JPG",
+    "bytes": 107934
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/4.JPG",
+    "bytes": 86295
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/5.JPG",
+    "bytes": 98940
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/6.JPG",
+    "bytes": 102811
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/7.JPG",
+    "bytes": 95397
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/8.JPG",
+    "bytes": 115073
+   },
+   {
+    "path": "1K3FK6m7Cz8w0Yr3bZOopevOrQMw7KLeE/9.JPG",
+    "bytes": 99176
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP?usp=sharing",
   "kind": "folder",
   "key": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1v2tCKrXMWYwT6WcpR6mJsGXq9Gn_IvTh\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/1.jpg",
+    "bytes": 513174
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/10.jpg",
+    "bytes": 840013
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/2.jpg",
+    "bytes": 479060
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/3.jpg",
+    "bytes": 565105
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/4.jpg",
+    "bytes": 794741
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/5.jpg",
+    "bytes": 540841
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/6.jpg",
+    "bytes": 414889
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/7.jpg",
+    "bytes": 470057
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/8.jpg",
+    "bytes": 739851
+   },
+   {
+    "path": "1QNPt3TjCcqQAmGqVP_3nSVTXVARZSAtP/9.jpg",
+    "bytes": 925460
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1QrTrf21m-viSaUEXZH897xu-vv4nVUR1?usp=sharing",
   "kind": "folder",
   "key": "1QrTrf21m-viSaUEXZH897xu-vv4nVUR1",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1a2JZq0wHACytLAIWXp40ydLtiTBrNOFq\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1QrTrf21m-viSaUEXZH897xu-vv4nVUR1/2 ERAMSJAK.xlsx",
+    "bytes": 719279
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS?usp=sharing",
   "kind": "folder",
   "key": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1RdpEFahkYYdbnWEOv6n4MGzEMKAzuYVW\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/1.xlsx",
+    "bytes": 772495
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/2.xlsx",
+    "bytes": 772495
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/3.xlsx",
+    "bytes": 772495
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/4.xlsx",
+    "bytes": 772495
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/Õ°Õ¡Õ·Õ¾Õ¥Õ¿Õ¾Õ¸ÖÕ©ÕµÕ¸ÖÕ¶ 2023-2024 Õ¶Õ¯Õ¡Ö.pdf",
+    "bytes": 9896460
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/Õ°Õ¡Õ·Õ¾Õ¥Õ¿Õ¾Õ¸ÖÕ©ÕµÕ¸ÖÕ¶ 2024-2025.pdf",
+    "bytes": 15845178
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/Õ°Õ¡Õ·Õ¾Õ¥Õ¿Õ¾Õ¸ÖÕ©ÕµÕ¸ÖÕ¶2023-2024.docx",
+    "bytes": 41764
+   },
+   {
+    "path": "1TW7ntnNbLlSYbnca42xp2rUmS8_9SVlS/Õ¿Õ¶ÖÖÕ¥Õ¶Õ« Õ¯Õ¡Õ¿Õ¡ÖÕ¸Õ²Õ¡Õ¯Õ¡Õ¶Õ« Õ°Õ¡Õ·Õ¾Õ¥Õ¿Õ¾Õ¸ÖÕ©ÕµÕ¸ÖÕ¶ 2024-2025Õ©Õ©â¤.docx",
+    "bytes": 49954
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_?usp=sharing",
   "kind": "folder",
   "key": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1keV4ZIFMqrR7VGxxN6UQwI7XeUwJV2Pd\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/1.jpg",
+    "bytes": 1649383
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/2.jpg",
+    "bytes": 1142000
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/3.jpg",
+    "bytes": 1291908
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/4.jpg",
+    "bytes": 1444722
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/5.jpg",
+    "bytes": 1406220
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/6.jpg",
+    "bytes": 1039204
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/7.jpg",
+    "bytes": 1365772
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/8.jpg",
+    "bytes": 1522935
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/Tarekan plan 1.jpg",
+    "bytes": 1781367
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/Tarekan plan 2.jpg",
+    "bytes": 1735201
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/Tarekan plan 3.jpg",
+    "bytes": 1890853
+   },
+   {
+    "path": "1W74ZrkzgWfjzz4ZuloeSeGOz2AringC_/Tarekan plan 4.jpg",
+    "bytes": 1569914
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX?usp=sharing",
   "kind": "folder",
   "key": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1rxQTLOAYyb7PU9loK_SxsaZWG6O8zQ2E\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/1.jpg",
+    "bytes": 1649383
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/2.jpg",
+    "bytes": 1142000
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/3.jpg",
+    "bytes": 1291908
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/4.jpg",
+    "bytes": 1444722
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/5.jpg",
+    "bytes": 1406220
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/6.jpg",
+    "bytes": 1039204
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/7.jpg",
+    "bytes": 1365772
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/8.jpg",
+    "bytes": 1522935
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/Tarekan plan 1.jpg",
+    "bytes": 1781367
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/Tarekan plan 2.jpg",
+    "bytes": 1735201
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/Tarekan plan 3.jpg",
+    "bytes": 1890853
+   },
+   {
+    "path": "1XZcl6o1YeyKzt86Q1RpqHhB2BCjNqekX/Tarekan plan 4.jpg",
+    "bytes": 1569914
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu?usp=sharing",
   "kind": "folder",
   "key": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1tXF1ySBIrL7rkLf0_-G1AFvoexsToJzD\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/001.jpg",
+    "bytes": 569423
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/002.jpg",
+    "bytes": 847714
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/003.jpg",
+    "bytes": 566565
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/004.jpg",
+    "bytes": 533206
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/005.jpg",
+    "bytes": 410986
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/013.jpg",
+    "bytes": 467065
+   },
+   {
+    "path": "1_wFvYpjBq2PkEcu0YYxAWKPQ9Mj27Dnu/014.jpg",
+    "bytes": 387663
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1aWiGYqtCIj0Mnz5Rrpasjhj_wbB6V8nf?usp=sharing",
   "kind": "folder",
   "key": "1aWiGYqtCIj0Mnz5Rrpasjhj_wbB6V8nf",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1pxRq-VT7VpIHhSY6lAlxDHTRcPhx0nA0\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1aWiGYqtCIj0Mnz5Rrpasjhj_wbB6V8nf/2.jpg",
+    "bytes": 2683589
+   },
+   {
+    "path": "1aWiGYqtCIj0Mnz5Rrpasjhj_wbB6V8nf/3.jpg",
+    "bytes": 1574528
+   },
+   {
+    "path": "1aWiGYqtCIj0Mnz5Rrpasjhj_wbB6V8nf/4.jpg",
+    "bytes": 873665
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf?usp=sharing",
   "kind": "folder",
   "key": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1exl5N_lB52SuQlztfeZIi6UYkBoZnDE9\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/1.JPG",
+    "bytes": 98581
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/10.JPG",
+    "bytes": 148790
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/11.JPG",
+    "bytes": 171609
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/12.JPG",
+    "bytes": 169054
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/13.JPG",
+    "bytes": 139639
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/14.JPG",
+    "bytes": 65426
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/2.JPG",
+    "bytes": 97349
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/3.JPG",
+    "bytes": 112041
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/4.JPG",
+    "bytes": 105903
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/5.JPG",
+    "bytes": 78866
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/6.JPG",
+    "bytes": 92606
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/7.JPG",
+    "bytes": 153797
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/8.JPG",
+    "bytes": 145935
+   },
+   {
+    "path": "1dIFTYCSIiIk74jCzYPHy9Z-FIT4JlNuf/9.JPG",
+    "bytes": 156316
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1eATYWvcodl-WOoygenUOIen0Z_HaJtKx?usp=sharing",
   "kind": "folder",
   "key": "1eATYWvcodl-WOoygenUOIen0Z_HaJtKx",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1gF5O_vcJF23hnquZGPecuGdyCHxmYNVG\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1eATYWvcodl-WOoygenUOIen0Z_HaJtKx/1 Õ¥Õ¼Õ¡Õ´Õ½ÕµÕ¡Õ¯ ÖÕ«Õ¶ Õ°Õ¡Õ·Õ¾Õ¥Õ¿Õ¾Õ¸ÖÕ©ÕµÕ¸ÖÕ¶.PDF",
+    "bytes": 5470019
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP?usp=sharing",
   "kind": "folder",
   "key": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1xxykrgy2g1irFm8otWpugusFkmtTxYJ1\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP/1.pdf",
+    "bytes": 184854
+   },
+   {
+    "path": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP/2.pdf",
+    "bytes": 167544
+   },
+   {
+    "path": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP/3.pdf",
+    "bytes": 102670
+   },
+   {
+    "path": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP/4.pdf",
+    "bytes": 96300
+   },
+   {
+    "path": "1gP9eKONpHrgucSsqQ1h6Ru-bKniE98oP/5.pdf",
+    "bytes": 223733
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs?usp=sharing",
   "kind": "folder",
   "key": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1fXfo2x70AiYGRRosWhYJY1nPgA9d245F\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ¬Õ¥Õ¦Õ¸Ö, Õ¯Õ¥Õ¶Õ½Õ¡Õ¢, Õ¼Õ¸ÖÕ½ 22 Õ©.pdf",
+    "bytes": 491828
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ°Õ¡ÕµÕ¥ÖÕ¥Õ¶ 22.pdf",
+    "bytes": 374172
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ°Õ¡Õ½Õ¡ÖÕ¡Õ¯ 23.pdf",
+    "bytes": 392003
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ°Õ¡Õ½Õ¡ÖÕ¡Õ¯â¤23â¤2.pdf",
+    "bytes": 383590
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ´Õ¡Õ©Õ¥Õ´ 21.pdf",
+    "bytes": 257072
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ´Õ¡Õ©Õ¥Õ´ 22Õ©â¤.pdf",
+    "bytes": 395554
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ´Õ¡Õ©Õ¥Õ´, Õ«Õ¶ÖÕ¸ÖÕ´.pdf",
+    "bytes": 365954
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/Õ´Õ¡Õ©Õ¥Õ´â¤ 23Õ©,.pdf",
+    "bytes": 373693
+   },
+   {
+    "path": "1hNvwBovD9fR1CHzB1u2kSYlTjbQmokHs/ÖÕ«Õ¦Õ«Õ¯Õ¡, Õ¡Õ·Õ­â¤, Õ°Õ¡Õ½â¤ 22Õ©â¤.pdf",
+    "bytes": 456202
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR?usp=sharing",
   "kind": "folder",
   "key": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1XItV_iaTkbjQ_BMPlEAkr6fvJvhkuvj3\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/1.JPG",
+    "bytes": 84718
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/10.JPG",
+    "bytes": 95863
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/11.JPG",
+    "bytes": 77455
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/2.JPG",
+    "bytes": 65301
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/3.JPG",
+    "bytes": 73469
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/4.JPG",
+    "bytes": 131595
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/5.JPG",
+    "bytes": 129868
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/6.JPG",
+    "bytes": 127987
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/7.JPG",
+    "bytes": 121917
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/8.JPG",
+    "bytes": 124060
+   },
+   {
+    "path": "1irCvvLBwgaZvNEFb5rMH7r1ddHHJbaUR/9.JPG",
+    "bytes": 115537
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1jJlkvCOgfcyBwNdcO_wDpkXb4dWNj3fj?usp=sharing",
   "kind": "folder",
   "key": "1jJlkvCOgfcyBwNdcO_wDpkXb4dWNj3fj",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=14QgrlTU2-mrRZ6qP9VF9-DAowBh0KtMF\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1jJlkvCOgfcyBwNdcO_wDpkXb4dWNj3fj/ÕÕ¡Õ²Õ¾Õ¡Õ®Ö 13.09.2023.PDF",
+    "bytes": 73191
+   },
+   {
+    "path": "1jJlkvCOgfcyBwNdcO_wDpkXb4dWNj3fj/ÕÕ¡Õ²Õ¾Õ¡Õ®Ö 21.06.2023.PDF",
+    "bytes": 54000
+   },
+   {
+    "path": "1jJlkvCOgfcyBwNdcO_wDpkXb4dWNj3fj/ÕÕ¡Õ²Õ¾Õ¡Õ®Ö 25.01.2023.PDF",
+    "bytes": 60199
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU?usp=sharing",
   "kind": "folder",
   "key": "1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=16p1pVfGSGgULAPAgKyavediOXooVRLu4\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU/2026.PDF",
+    "bytes": 3058146
+   },
+   {
+    "path": "1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU/File.PDF",
+    "bytes": 782907
+   },
+   {
+    "path": "1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU/Õ£ÖÕ¸ÖÕ©ÕµÕ¸ÖÕ¶.pdf",
+    "bytes": 331888
+   },
+   {
+    "path": "1jhRySr1Ekq7qcNYAGPywRDrKlrRdzUAU/Õ¯Õ«Ö Õ¶ÕµÕ¸ÖÕ©.pdf",
+    "bytes": 446999
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1k7RAkyISCQYlY94ITezRG0Wcj-kj-OUB?usp=sharing",
   "kind": "folder",
   "key": "1k7RAkyISCQYlY94ITezRG0Wcj-kj-OUB",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1YwXL7r9ogndleupxAoKBqpMappIEuzAF\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1k7RAkyISCQYlY94ITezRG0Wcj-kj-OUB/Ô¾Ô½â¤ÕÕ¡Õ²Õ¾Õ¡Õ®Ö1. 03.09.2024.pdf",
+    "bytes": 113081
+   },
+   {
+    "path": "1k7RAkyISCQYlY94ITezRG0Wcj-kj-OUB/ÕÕ¡Õ²Õ¾Õ¡Õ®Ö 23.11.2023Õ©.PDF",
+    "bytes": 92526
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9?usp=sharing",
   "kind": "folder",
   "key": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1kthZbT4RC8nkys14iFSmIBQoiF_06pzH\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/1.jpg",
+    "bytes": 64476
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/10.jpg",
+    "bytes": 103981
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/11.jpg",
+    "bytes": 94604
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/12.jpg",
+    "bytes": 102654
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/13.jpg",
+    "bytes": 98459
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/14.jpg",
+    "bytes": 85150
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/15.jpg",
+    "bytes": 71253
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/3.jpg",
+    "bytes": 74249
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/4.jpg",
+    "bytes": 62072
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/5.jpg",
+    "bytes": 80612
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/6.jpg",
+    "bytes": 55607
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/7.jpg",
+    "bytes": 59917
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/8.jpg",
+    "bytes": 128020
+   },
+   {
+    "path": "1lAEWNz3uCCCDPG-kFPcsvndtkZeN2ud9/9.jpg",
+    "bytes": 132759
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8?usp=sharing",
   "kind": "folder",
   "key": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1JMITiGG22SqBbGnPBuei-osoe6-LLAyv\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/1.pdf",
+    "bytes": 122133
+   },
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/2.pdf",
+    "bytes": 113074
+   },
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/3.pdf",
+    "bytes": 126645
+   },
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/4.pdf",
+    "bytes": 127232
+   },
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/5.pdf",
+    "bytes": 55748
+   },
+   {
+    "path": "1r0oAgLjh-9_wlqzDip1czQy4Lin8t7B8/6.pdf",
+    "bytes": 62097
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_?usp=sharing",
   "kind": "folder",
   "key": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1klmOEknuPSevL3Zsf6A-afuSFoBlhuik\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/1.JPG",
+    "bytes": 71761
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/10.JPG",
+    "bytes": 94246
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/11.JPG",
+    "bytes": 93146
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/2.JPG",
+    "bytes": 57590
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/3.JPG",
+    "bytes": 68744
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/4.JPG",
+    "bytes": 53634
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/5.JPG",
+    "bytes": 61908
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/6.JPG",
+    "bytes": 99369
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/7.JPG",
+    "bytes": 99794
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/8.JPG",
+    "bytes": 96769
+   },
+   {
+    "path": "1rOl0ISr6ioONaJmoHsRiXHazT11rXwb_/9.JPG",
+    "bytes": 90406
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1sOmgWvR1ljZu7VFQHRtwUGLczJofVRJM?usp=sharing",
   "kind": "folder",
   "key": "1sOmgWvR1ljZu7VFQHRtwUGLczJofVRJM",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1xSwEj8lRfK996qjGRFAz89emG8jZZy1M\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1sOmgWvR1ljZu7VFQHRtwUGLczJofVRJM/2.jpg",
+    "bytes": 2699394
+   },
+   {
+    "path": "1sOmgWvR1ljZu7VFQHRtwUGLczJofVRJM/3.jpg",
+    "bytes": 1581717
+   },
+   {
+    "path": "1sOmgWvR1ljZu7VFQHRtwUGLczJofVRJM/4.jpg",
+    "bytes": 842137
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1sm130mONKP4w4Aro3PD_Udw96OqGqc2I?usp=sharing",
   "kind": "folder",
   "key": "1sm130mONKP4w4Aro3PD_Udw96OqGqc2I",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=19dJueHszBh6w4EjPjiV07VoD5ZForMOc\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1sm130mONKP4w4Aro3PD_Udw96OqGqc2I/1.jpg",
+    "bytes": 543998
+   },
+   {
+    "path": "1sm130mONKP4w4Aro3PD_Udw96OqGqc2I/2.jpg",
+    "bytes": 702236
+   },
+   {
+    "path": "1sm130mONKP4w4Aro3PD_Udw96OqGqc2I/3.jpg",
+    "bytes": 924597
+   },
+   {
+    "path": "1sm130mONKP4w4Aro3PD_Udw96OqGqc2I/4.jpg",
+    "bytes": 517103
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1vbAs_T7l3baWzZjgTQK2bZ_N-bPA-nNu?usp=sharing",
@@ -529,67 +1256,219 @@
   "url": "https://drive.google.com/drive/folders/1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0?usp=sharing",
   "kind": "folder",
   "key": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1xi4LhOHhk0PFBT3he38JiEKRKuEdi22q\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/1.pdf",
+    "bytes": 62574
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/10.pdf",
+    "bytes": 65070
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/11.pdf",
+    "bytes": 65086
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/2.pdf",
+    "bytes": 54590
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/3.pdf",
+    "bytes": 69338
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/4.pdf",
+    "bytes": 103889
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/5.pdf",
+    "bytes": 70678
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/6.pdf",
+    "bytes": 61094
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/7.pdf",
+    "bytes": 52173
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/8.pdf",
+    "bytes": 59956
+   },
+   {
+    "path": "1wIOVpvN_FdckeFUhys43QNnDvw0p4RX0/9.pdf",
+    "bytes": 52399
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-?usp=sharing",
   "kind": "folder",
   "key": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1NMLIJ13HyjxOZhRegn1DaiLYPTUihP69\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/1.png",
+    "bytes": 953224
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/10.png",
+    "bytes": 628056
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/2.png",
+    "bytes": 459429
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/3.png",
+    "bytes": 906709
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/4.png",
+    "bytes": 637012
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/5.png",
+    "bytes": 889474
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/6.png",
+    "bytes": 649489
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/7.png",
+    "bytes": 531427
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/8.png",
+    "bytes": 619534
+   },
+   {
+    "path": "1xoJ57EJAzdaSvi5phZVzPunOjJfvYii-/9.png",
+    "bytes": 593846
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1y1I538tkEWKElLQIEkSzy_eejOO68GjQ?usp=sharing",
   "kind": "folder",
   "key": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1xKDRD8USTBikUeXg1dGZWuoeWz04v7wI\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/1.jpg",
+    "bytes": 2437478
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/2.jpg",
+    "bytes": 2459420
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/3.jpg",
+    "bytes": 2361367
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/4.jpg",
+    "bytes": 2441894
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/5.jpg",
+    "bytes": 2220286
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/6.jpg",
+    "bytes": 2095184
+   },
+   {
+    "path": "1y1I538tkEWKElLQIEkSzy_eejOO68GjQ/7.jpg",
+    "bytes": 2211895
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/drive/folders/1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc?usp=sharing",
   "kind": "folder",
   "key": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc",
-  "ok": false,
-  "error": "FileURLRetrievalError: Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1VhZCHxnanqRVq6_5ywJKuzqf1-x-4GW4\n\nbut Gdown can't. Please check connections and permissions."
+  "files": [
+   {
+    "path": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc/1.jpg",
+    "bytes": 555983
+   },
+   {
+    "path": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc/2.jpg",
+    "bytes": 1230925
+   },
+   {
+    "path": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc/3.jpg",
+    "bytes": 956798
+   },
+   {
+    "path": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc/6.jpg",
+    "bytes": 1535057
+   },
+   {
+    "path": "1zN6T3xeqPUE_ayo9UZTsL6bd6zpemFMc/7.jpg",
+    "bytes": 1011774
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/10AwNX49OFmGUdH_GJDEZ_87ibE-5TRXu/view?usp=sharing",
   "kind": "file",
   "key": "10AwNX49OFmGUdH_GJDEZ_87ibE-5TRXu",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "10AwNX49OFmGUdH_GJDEZ_87ibE-5TRXu/2023 Õ©. 3-ÖÕ¤ Õ¥Õ¼Õ¡Õ´Õ½ÕµÕ¡Õ¯.PDF",
+    "bytes": 1191328
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/11P357elnWjHb0Evw914WRQ9DhSGzrcMl/view?usp=sharing",
   "kind": "file",
   "key": "11P357elnWjHb0Evw914WRQ9DhSGzrcMl",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "11P357elnWjHb0Evw914WRQ9DhSGzrcMl/3. 2023 Õ°Õ¸ÖÕ¶Õ¾Õ¡Ö-Õ°Õ¸Õ¯Õ¿Õ¥Õ´Õ¢Õ¥Ö.pdf",
+    "bytes": 2657629
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/1TKmJaia6pHxVbkVRyGh1tfGyTybciylX/view?usp=sharing",
   "kind": "file",
   "key": "1TKmJaia6pHxVbkVRyGh1tfGyTybciylX",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "1TKmJaia6pHxVbkVRyGh1tfGyTybciylX/2023 Õ©. 1-Õ«Õ¶ Õ¥Õ¼Õ¡Õ´Õ½ÕµÕ¡Õ¯.PDF",
+    "bytes": 1116288
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/1UYk3iqj6dqXgxSM1e48sEA5tHCrpJrlC/view?usp=sharing",
   "kind": "file",
   "key": "1UYk3iqj6dqXgxSM1e48sEA5tHCrpJrlC",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "1UYk3iqj6dqXgxSM1e48sEA5tHCrpJrlC/2. 2022 Õ°Õ¸ÖÕ¶Õ¾Õ¡Ö-Õ¤Õ¥Õ¿Õ¥Õ´Õ¢Õ¥Ö.pdf",
+    "bytes": 3426176
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/1f694pp3h8KeOrnc3uYtHhAcZK7u9R7L8/view?usp=sharing",
   "kind": "file",
   "key": "1f694pp3h8KeOrnc3uYtHhAcZK7u9R7L8",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
+  "direct_error": "HTTP Error 404: Not Found",
   "ok": false,
   "error": "HTTPError: HTTP Error 410: Gone"
  },
@@ -597,24 +1476,36 @@
   "url": "https://drive.google.com/file/d/1gjxMe4VXSeRHYG8X290xKYRhZXBw-rvU/view?usp=sharing",
   "kind": "file",
   "key": "1gjxMe4VXSeRHYG8X290xKYRhZXBw-rvU",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "1gjxMe4VXSeRHYG8X290xKYRhZXBw-rvU/2023 Õ©. 4-ÖÕ¤ Õ¥Õ¼Õ¡Õ´Õ½ÕµÕ¡Õ¯.pdf",
+    "bytes": 8219854
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/1i3M7IBz2CdU4xapXu81RZsFizQTRwZ9N/view?usp=sharing",
   "kind": "file",
   "key": "1i3M7IBz2CdU4xapXu81RZsFizQTRwZ9N",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "1i3M7IBz2CdU4xapXu81RZsFizQTRwZ9N/2023 Õ©. 2-ÖÕ¤ Õ¥Õ¼Õ¡Õ¡Õ´Õ½ÕµÕ¡Õ¯.PDF",
+    "bytes": 999396
+   }
+  ],
+  "ok": true
  },
  {
   "url": "https://drive.google.com/file/d/1tKNR6200iFLk_1UyQdF85sfsTCpqllFf/view?usp=sharing",
   "kind": "file",
   "key": "1tKNR6200iFLk_1UyQdF85sfsTCpqllFf",
-  "gdown_error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 400: Bad Request"
+  "files": [
+   {
+    "path": "1tKNR6200iFLk_1UyQdF85sfsTCpqllFf/1. 2021 Õ°Õ¸ÖÕ¶Õ¾Õ¡Ö-Õ¤Õ¥Õ¿Õ¥Õ´Õ¢Õ¥Ö.pdf",
+    "bytes": 1517103
+   }
+  ],
+  "ok": true
  }
 ]
