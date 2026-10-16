@@ -1,12 +1,13 @@
 name: Mirror external files
-# Temporary helper: downloads the externally linked files into a build
-# artifact for review. Read-only: it never commits or deploys anything.
+# Temporary helper: downloads the externally linked files and pushes them to a
+# separate review branch (mirror-review). Nothing is deployed: only main deploys,
+# and the files are reviewed before any of them is copied into the site.
 on:
   push:
     branches: [claude/project-thread-g20ea7]
     paths: [tools/mirror/**, .github/workflows/mirror.yml]
 permissions:
-  contents: read
+  contents: write
 jobs:
   mirror:
     runs-on: ubuntu-latest
@@ -17,8 +18,12 @@ jobs:
       - run: pip install "gdown==5.2.0"
       - run: python tools/mirror/mirror.py tools/mirror/links.txt
       - run: du -sh mirror-out && find mirror-out -type f | wc -l
-      - uses: actions/upload-artifact@v4
-        with:
-          name: mirror-out
-          path: mirror-out
-          retention-days: 3
+      - name: Push files to the review branch
+        run: |
+          find mirror-out -type f -size +90M -print -delete
+          cd mirror-out
+          git init -q -b mirror-review
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "Downloaded external files for review"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" mirror-review
