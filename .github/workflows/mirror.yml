@@ -16,14 +16,16 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install "gdown==5.2.0"
+      - name: Start from the files already downloaded
+        run: git clone -q --depth 1 -b mirror-review "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" mirror-out || true
       - run: python tools/mirror/mirror.py tools/mirror/links.txt
       - run: du -sh mirror-out && find mirror-out -type f | wc -l
       - name: Push files to the review branch
         run: |
           find mirror-out -type f -size +90M -print -delete
           cd mirror-out
-          git init -q -b mirror-review
+          [ -d .git ] || git init -q -b mirror-review
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A && git commit -qm "Downloaded external files for review"
+          git add -A && (git commit -qm "Downloaded external files for review" || true)
           git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" mirror-review
