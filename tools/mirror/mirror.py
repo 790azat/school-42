@@ -53,15 +53,17 @@ def direct(key, d):
 
 def main():
     links = [l.strip() for l in open(sys.argv[1]) if l.strip()]
+    chunk, of = (int(sys.argv[2]), int(sys.argv[3])) if len(sys.argv) > 3 else (0, 1)
+    links = links[chunk::of]  # each CI job (own IP) takes a slice, so Google does not throttle
     old = {}
-    mpath = os.path.join(OUT, "manifest.json")
+    mpath = os.environ.get("OLD_MANIFEST", os.path.join(OUT, "manifest.json"))
     if os.path.exists(mpath):
         old = {e["url"]: e for e in json.load(open(mpath))}
     manifest = []
     for url in links:
         if old.get(url, {}).get("ok"):
             manifest.append(old[url]); continue
-        time.sleep(15)  # Google throttles bursts from CI runners
+        time.sleep(2)
         entry = {"url": url}
         try:
             if m := re.search(r"/folders/([\w-]+)", url):
@@ -72,13 +74,14 @@ def main():
                 for f in files:
                     rel = os.path.relpath(f.local_path, d)
                     target = os.path.join(d, os.path.dirname(rel))
-                    for attempt in range(3):
+                    for attempt in range(2):
                         try:
-                            direct(f.id, target); break
+                            direct(f.id, target)
+                            entry.get("file_errors", {}).pop(f.path, None); break
                         except Exception as e:
                             entry.setdefault("file_errors", {})[f.path] = str(e)[:200]
-                            time.sleep(30 * (attempt + 1))
-                    time.sleep(3)
+                            time.sleep(10)
+                    time.sleep(1)
             elif m := re.search(r"/presentation/d/e/([\w-]+)", url):
                 key = m.group(1); entry.update(kind="published-slides", key=key)
                 d = os.path.join(OUT, key); err = []
@@ -97,11 +100,11 @@ def main():
                 d = os.path.join(OUT, key) + "/"
                 os.makedirs(d, exist_ok=True)
                 ok = None
-                for attempt in range(3):
+                for attempt in range(2):
                     try:
                         ok = direct(key, d); break
                     except Exception as e:
-                        entry["direct_error"] = str(e)[:300]; time.sleep(30 * (attempt + 1))
+                        entry["direct_error"] = str(e)[:300]; time.sleep(10)
                 if not ok:
                     # native Google Sheets/Docs: export instead
                     kind = "spreadsheets" if "spreadsheets" in url else "document"
@@ -118,10 +121,16 @@ def main():
             entry["ok"] = False
             entry["error"] = f"{type(e).__name__}: {e}"[:600]
             traceback.print_exc()
+        if entry.get("file_errors"):
+            entry["ok"] = False
+        if not entry.get("ok"):
+            msg = (entry.get("error") or json.dumps(entry.get("file_errors"), ensure_ascii=False))[:300]
+            print(f"::warning title=mirror fail {entry.get('key', '')[:30]}::{msg}")
         print(("OK  " if entry.get("ok") else "FAIL"), url, file=sys.stderr)
         manifest.append(entry)
     os.makedirs(OUT, exist_ok=True)
-    json.dump(manifest, open(os.path.join(OUT, "manifest.json"), "w"), ensure_ascii=False, indent=1)
+    name = "manifest.json" if of == 1 else f"manifest-{chunk}.json"
+    json.dump(manifest, open(os.path.join(OUT, name), "w"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":
