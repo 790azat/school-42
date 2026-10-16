@@ -1,0 +1,24 @@
+name: Mirror external files
+# Temporary helper: downloads the externally linked files into a build
+# artifact for review. Read-only: it never commits or deploys anything.
+on:
+  push:
+    branches: [claude/project-thread-g20ea7]
+    paths: [tools/mirror/**, .github/workflows/mirror.yml]
+permissions:
+  contents: read
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install "gdown==5.2.0"
+      - run: python tools/mirror/mirror.py tools/mirror/links.txt
+      - run: du -sh mirror-out && find mirror-out -type f | wc -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mirror-out
+          path: mirror-out
+          retention-days: 3
