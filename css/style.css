@@ -516,3 +516,9 @@ a.card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); border
 .file-list span { font-weight: 700; color: var(--blue-900); flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .file-list small { color: var(--ink-500); white-space: nowrap; font-size: .8rem; }
 .file-gallery a { aspect-ratio: 3/4; }
+
+/* ---------- Internal evaluation decks ---------- */
+.eval-preview { display: block; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow-sm); max-width: 720px; transition: box-shadow .2s, transform .2s; }
+.eval-preview:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.eval-preview img { width: 100%; height: auto; }
+.eval-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
